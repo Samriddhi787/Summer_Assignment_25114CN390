@@ -92,7 +92,8 @@ int main()
                         printf("Name of the Employee:");
                         puts(s[i].name);
                         printf("Age:%d\n", s[i].age);
-                        printf("Department:%d\n", s[i].dep);
+                        printf("Department:");
+                        puts(s[i].dep);
                         printf("Employee ID:%d\n", s[i].emp_id);
                         printf("Salary:%f %\n", s[i].salary);
                         found=1;
